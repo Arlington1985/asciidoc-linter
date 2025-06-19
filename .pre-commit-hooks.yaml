@@ -1,5 +1,7 @@
-- id: asciidoctor-lint
+- id: asciidoc-lint
   name: AsciiDoc Linter
-  entry: asciidoctor-lint
+  description: Checks AsciiDoc files for common issues
+  entry: asciidoc-lint
   language: python
   types: [file]
+  files: \.(adoc|asciidoc)$
