@@ -1,0 +1,5 @@
+- id: asciidoctor-lint
+  name: AsciiDoc Linter
+  entry: asciidoctor-lint
+  language: python
+  types: [file]
